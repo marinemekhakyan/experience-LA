@@ -1,28 +1,19 @@
-import React, { Component, Fragment } from 'react';
-import { render } from '@testing-library/react';
+import React from 'react';
+import classes from './video.css';
 
-// class Video extends Component {
-//     constructor(props) {
-//         super(props);
-//         this.state = {
-//             autoplay: true
-//         };
-//     }
-// }
-
-const Video = () => (
-        <Fragment>
+const Video = () => {
+    const source = 'https://ctala.com/wp-content/uploads/2020/03/drone-video-edit-V3.mp4'
+    return (
+        <div className={classes.Container} >
             <video
-                muted
-                autoplay
-                loop
-                poster='assets/backgroundStill.png' type='video/mp4'
-                >
-                    <source src='assets/backgroundVid.mp4' type='video/mp4' />
+                muted classname={classes.Container}
+                autoplay = 'autoplay'
+                loop = 'loop'>
+                < source src={source} type='video/mp4'/>
+
             </video>
-        </Fragment>
-    )
-
-
+        </div>
+        )
+}
 
 export default Video;
