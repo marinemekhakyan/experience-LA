@@ -8,6 +8,7 @@
     z-index: -1000;
     background-color: black;
     zoom: none;
+    background: rgba(0, 0, 0, 0.50);
 }
 
 .fullscreen-bg__video {
@@ -17,4 +18,5 @@
     width: 100%;
     height: 100%;
     zoom: none;
+    background: rgba(0, 0, 0, 0.50);
 }
