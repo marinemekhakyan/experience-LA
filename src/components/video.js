@@ -7,13 +7,13 @@ const Video = () => {
         <div className={classes.Container} >
             <video
                 muted classname={classes.Container}
-                autoplay = 'autoplay'
-                loop = 'loop'>
-                < source src={source} type='video/mp4'/>
+                autoplay='autoplay'
+                loop='loop'>
+                < source src={source} type='video/mp4' />
 
             </video>
         </div>
-        )
+    )
 }
 
 export default Video;
