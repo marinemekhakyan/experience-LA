@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Nav from '../components/nav';
-import Video from '../components/video';
+import Nav from '../nav';
+import Video from '../video';
 
 class Home extends Component {
     render() {
