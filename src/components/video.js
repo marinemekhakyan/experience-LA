@@ -6,8 +6,8 @@ const Video = () => {
     return (
         <div className={classes.Container} >
             <video
-                muted classname={classes.Container}
-                autoplay='autoplay'
+                muted className={classes.Container}
+                autoplay='autoPlay'
                 loop='loop'>
                 < source src={source} type='video/mp4' />
 
