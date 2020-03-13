@@ -1,4 +1,28 @@
-.fullscreen-bg {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+    margin: 100px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    /* font-weight: bold; */
+  }
+
+  nav {
+      background-color: black;
+      opacity: 0.9;
+      padding: 15px;
+  }
+
+  .fullscreen-bg {
     position: fixed;
     top: 0;
     right: 0;
