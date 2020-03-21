@@ -3,7 +3,7 @@ import classes from './main.css';
 
 const Nav = () => {
     return (
-        <div className={classes.Container} >
+        <div>
             <nav>
                 <ul>
                     <li><a href="default.asp">Home</a></li>

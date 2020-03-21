@@ -1,2 +1,13 @@
 import React from 'react';
-import classes from './main.css';
+
+const Heading = () => {
+    return (
+        <div>
+            <h5>
+                Welcome Text
+            </h5>
+        </div>
+    )
+}
+
+export default Heading;

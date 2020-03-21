@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import Nav from '../nav';
-import Video from '../video';
+import Heading from '../heading';
+// import Video from '../video';
 
 class Home extends Component {
     render() {
         return (
             <div>
             < Nav />
-            < Video />
+            < Heading />
+            {/* < Video /> */}
             </div>
         )
     }
